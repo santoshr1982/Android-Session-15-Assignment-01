@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/etUrl"
+        android:background="@drawable/text_design"
+        android:padding="10dp"
+        android:hint="Enter URL"
+        android:gravity="top"
+        android:textColor="#000"
+        android:textSize="16sp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDownload"
+        android:layout_marginTop="10dp"
+        android:text="Start the Download"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"
+
+        />
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:id="@+id/ivImage"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        />
+
+
+</LinearLayout>
